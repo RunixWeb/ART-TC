@@ -12,6 +12,7 @@ body {
 
 .imagenes img {
   width: 100%;
+  max-width: 400px;
   height: auto;
   margin-bottom: 15px;
   display: block;

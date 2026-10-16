@@ -3,3 +3,17 @@ body {
   font-family: Courier;
   margin: 40px;
 }
+
+.imagenes {
+  column-count: 4;
+  column-gap: 8px;
+  margin-top: 4px;
+}
+
+.imagenes img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  display: block;
+  break-inside: avoid;
+}
